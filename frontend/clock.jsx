@@ -74,12 +74,18 @@ export default class Clock extends React.Component {
   render() {
     return (
       <div className="clock">
+          <div className="hour">
           {this.state.hour}
-          <br/>
+          </div>
+          
+          <div className="min">
           {this.state.min}
-          <br/>
+          </div>
+
+          <div className="sec">
           {this.state.sec}
-          <br/>
+          </div>
+
           {this.state.morning}
           <div className="AMPM">
           {this.amOrPm()}
