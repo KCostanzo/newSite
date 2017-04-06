@@ -55,7 +55,7 @@ export default class Clock extends React.Component {
       }
       this.setState({ hour: hour+= 1});
     } else if (hour === 12){
-      this.setState({ hour: 1});
+      this.setState({ hour: 1 });
     }
   }
 
