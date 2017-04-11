@@ -71,19 +71,27 @@ export default class Clock extends React.Component {
     }
   }
 
+  pad(n) {
+    if (n < 10) {
+      return "0" + n;
+    } 
+    return n;
+  }
+
+
   render() {
     return (
       <div className="clock">
           <div className="hour">
-          {this.state.hour}
+          {this.pad(this.state.hour)}
           </div>
           
           <div className="min">
-          {this.state.min}
+          {this.pad(this.state.min)}
           </div>
 
           <div className="sec">
-          {this.state.sec}
+          {this.pad(this.state.sec)}
           </div>
 
           {this.state.morning}
