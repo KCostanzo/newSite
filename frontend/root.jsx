@@ -18,7 +18,6 @@ class Root extends React.Component {
 
     return(
       <div>
-        React running!
 		<Clock/>
       </div>
     );

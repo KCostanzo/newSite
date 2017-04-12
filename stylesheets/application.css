@@ -1,4 +1,32 @@
 * {
-	  background: #222;
-	  color: white;
+	background: #222;
+	color: white;
+	font-family: 'Source Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+.clock {
+	display: flex;
+	/*padding: 0.2em;*/
+	margin: 0.2em;
+}
+
+
+.hour {
+	margin: 0.1em;
+}
+
+.min {
+	margin: 0.1em;
+}
+
+.sec {
+	margin: 0.1em;
+}
+
+.AMPM {
+	margin: 0.1em;
 }
