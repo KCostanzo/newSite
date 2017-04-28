@@ -98,6 +98,8 @@ export default class Clock extends React.Component {
           <div className="AMPM">
           {this.amOrPm()}
           </div>
+          <br/>
+          Welcome!
       </div>
     )
   }
