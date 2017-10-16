@@ -4,7 +4,7 @@ import Spinner from 'react-spinner';
 
 import Todos from './todos.jsx';
 
-export class myTodoApp extends React.Component {
+export default class myTodoApp extends React.Component {
 
 	render() {
 		// const {user} = this.state;
@@ -19,10 +19,13 @@ export class myTodoApp extends React.Component {
 						
 				// 	)} />
 
-		return (
-			<BrowserRouter >
-				<Route path='/' component={Todos}/>
-			</BrowserRouter>
-		);
+		// return (
+		// 	<BrowserRouter >
+		// 		<Route path='/' component={Todos}/>
+		// 	</BrowserRouter>
+		// );
+		return(
+			<Todos/>
+			)
 	}
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export class Todos extends React.Component {
+export default class Todos extends React.Component {
 
 	render() {
 		return(
