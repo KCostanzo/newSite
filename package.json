@@ -1,8 +1,8 @@
 {
-  "name": "widgets",
+  "name": "WKW",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "We Know Weed",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --inline"
@@ -24,7 +24,13 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^4.0.8",
     "react-spinner": "^0.2.7",
-    "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=4.1.1",
+    "npm": ">=2.1.x"
+  },
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.22"
   }
 }
